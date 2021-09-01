@@ -27,6 +27,7 @@ type Domain struct {
 	Wildcard     bool        `json:"wildcard"`
 	SpamAction   SpamAction  `json:"spam_action"`
 	State        string      `json:"state"`
+	WebScheme    string      `json:"web_scheme"`
 }
 
 // DNSRecord structures describe intended records to properly configure your domain for use with Mailgun.
